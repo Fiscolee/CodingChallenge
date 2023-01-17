@@ -27,7 +27,7 @@ jobs:
     - run: npm run lint
     - run: npm install --save-dev --save-exacr prettier
     - run: npm run prettier
-    - run: npm tesr
+    - run: npm test
       env:
        CI: true
     - run: npm run build
